@@ -193,8 +193,6 @@ final class MathContainersTest extends HackTest {
         8,
       ),
       tuple(
-        /* HH_IGNORE_ERROR[2049] __PHPStdLib */
-        /* HH_IGNORE_ERROR[4107] __PHPStdLib */
         HackLibTestTraversables::getIterator(range(1, 4)),
         10,
       ),
@@ -220,8 +218,6 @@ final class MathContainersTest extends HackTest {
         8.5,
       ),
       tuple(
-        /* HH_IGNORE_ERROR[2049] __PHPStdLib */
-        /* HH_IGNORE_ERROR[4107] __PHPStdLib */
         HackLibTestTraversables::getIterator(range(1, 4)),
         10.0,
       ),
